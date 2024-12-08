@@ -1,0 +1,1041 @@
+2024-11-28 01:00:33,908 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:00:34,075 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:00:37,912 - aiogram.event - INFO - Update id=675838629 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:00:39,946 - aiogram.event - INFO - Update id=675838630 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:07:13,345 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:07:13,603 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:07:18,199 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:07:18,436 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:07:18,594 - aiogram.event - INFO - Update id=675838631 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:08:10,689 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:08:10,945 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:08:15,505 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:08:15,683 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:08:16,852 - aiogram.event - INFO - Update id=675838632 is handled. Duration 155 ms by bot id=7635257187
+2024-11-28 01:08:18,659 - aiogram.event - INFO - Update id=675838633 is handled. Duration 47 ms by bot id=7635257187
+2024-11-28 01:08:25,713 - aiogram.event - INFO - Update id=675838634 is handled. Duration 62 ms by bot id=7635257187
+2024-11-28 01:08:31,341 - aiogram.event - INFO - Update id=675838635 is handled. Duration 46 ms by bot id=7635257187
+2024-11-28 01:08:36,151 - aiogram.event - INFO - Update id=675838636 is handled. Duration 62 ms by bot id=7635257187
+2024-11-28 01:08:39,886 - aiogram.event - INFO - Update id=675838637 is handled. Duration 93 ms by bot id=7635257187
+2024-11-28 01:08:41,628 - aiogram.event - INFO - Update id=675838638 is not handled. Duration 15 ms by bot id=7635257187
+2024-11-28 01:08:45,728 - aiogram.event - INFO - Update id=675838639 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:20:00,833 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:20:01,092 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:20:12,884 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:20:13,023 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:20:13,259 - aiogram.event - INFO - Update id=675838641 is handled. Duration 187 ms by bot id=7635257187
+2024-11-28 01:20:13,266 - aiogram.event - INFO - Update id=675838640 is handled. Duration 187 ms by bot id=7635257187
+2024-11-28 01:21:06,697 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:21:06,956 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:21:11,113 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:21:11,258 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:21:11,885 - aiogram.event - INFO - Update id=675838642 is handled. Duration 172 ms by bot id=7635257187
+2024-11-28 01:21:19,743 - aiogram.event - INFO - Update id=675838643 is handled. Duration 62 ms by bot id=7635257187
+2024-11-28 01:21:27,579 - aiogram.event - INFO - Update id=675838644 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:29:26,277 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:29:26,537 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:30:47,630 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:30:47,779 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:30:59,530 - aiogram.event - INFO - Update id=675838645 is handled. Duration 312 ms by bot id=7635257187
+2024-11-28 01:31:00,297 - aiogram.event - INFO - Update id=675838646 is not handled. Duration 31 ms by bot id=7635257187
+2024-11-28 01:31:00,297 - aiogram.event - ERROR - Cause exception while process update id=675838646 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\saw_master.py", line 12, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:31:03,430 - aiogram.event - INFO - Update id=675838647 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:31:03,430 - aiogram.event - ERROR - Cause exception while process update id=675838647 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\saw_master.py", line 12, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:31:04,717 - aiogram.event - INFO - Update id=675838648 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:31:04,717 - aiogram.event - ERROR - Cause exception while process update id=675838648 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\saw_master.py", line 12, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:31:04,963 - aiogram.event - INFO - Update id=675838649 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:31:04,963 - aiogram.event - ERROR - Cause exception while process update id=675838649 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\saw_master.py", line 12, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:31:05,264 - aiogram.event - INFO - Update id=675838650 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:31:05,264 - aiogram.event - ERROR - Cause exception while process update id=675838650 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\saw_master.py", line 12, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:32:26,384 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:32:26,643 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:32:31,236 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:32:31,385 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:32:33,033 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:32:33,300 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:33:12,058 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:33:12,257 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:33:14,414 - aiogram.event - INFO - Update id=675838651 is handled. Duration 156 ms by bot id=7635257187
+2024-11-28 01:33:15,169 - aiogram.event - INFO - Update id=675838652 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:33:15,170 - aiogram.event - ERROR - Cause exception while process update id=675838652 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:36:57,723 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:36:57,982 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:37:02,199 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:37:02,359 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:37:40,706 - aiogram.event - INFO - Update id=675838653 is handled. Duration 218 ms by bot id=7635257187
+2024-11-28 01:37:41,894 - aiogram.event - INFO - Update id=675838654 is handled. Duration 125 ms by bot id=7635257187
+2024-11-28 01:37:46,281 - aiogram.event - INFO - Update id=675838655 is handled. Duration 47 ms by bot id=7635257187
+2024-11-28 01:37:48,674 - aiogram.event - INFO - Update id=675838656 is handled. Duration 79 ms by bot id=7635257187
+2024-11-28 01:37:55,776 - aiogram.event - INFO - Update id=675838657 is handled. Duration 62 ms by bot id=7635257187
+2024-11-28 01:37:59,437 - aiogram.event - INFO - Update id=675838658 is handled. Duration 109 ms by bot id=7635257187
+2024-11-28 01:38:00,555 - aiogram.event - INFO - Update id=675838659 is not handled. Duration 15 ms by bot id=7635257187
+2024-11-28 01:38:00,555 - aiogram.event - ERROR - Cause exception while process update id=675838659 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:38:01,872 - aiogram.event - INFO - Update id=675838660 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:38:01,873 - aiogram.event - ERROR - Cause exception while process update id=675838660 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:38:02,317 - aiogram.event - INFO - Update id=675838661 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:38:02,317 - aiogram.event - ERROR - Cause exception while process update id=675838661 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:38:02,600 - aiogram.event - INFO - Update id=675838662 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:38:02,600 - aiogram.event - ERROR - Cause exception while process update id=675838662 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:38:02,696 - aiogram.event - INFO - Update id=675838663 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:38:02,696 - aiogram.event - ERROR - Cause exception while process update id=675838663 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:38:02,968 - aiogram.event - INFO - Update id=675838664 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:38:02,968 - aiogram.event - ERROR - Cause exception while process update id=675838664 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:40:32,941 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:40:33,205 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:40:37,567 - aiogram.dispatcher - INFO - Start polling
+2024-11-28 01:40:37,741 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-11-28 01:40:38,924 - aiogram.event - INFO - Update id=675838665 is not handled. Duration 15 ms by bot id=7635257187
+2024-11-28 01:40:38,924 - aiogram.event - ERROR - Cause exception while process update id=675838665 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:40:42,423 - aiogram.event - INFO - Update id=675838666 is not handled. Duration 0 ms by bot id=7635257187
+2024-11-28 01:40:42,423 - aiogram.event - ERROR - Cause exception while process update id=675838666 by bot id=7635257187
+ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\handlers\admin.py", line 53, in list_masters
+    keyboard = generate_masters_keyboard()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\keybords\admin.py", line 21, in generate_masters_keyboard
+    keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Анатолій\OneDrive\Desktop\Proger\pythonProjectAtelyeIrina\venv\Lib\site-packages\pydantic\main.py", line 212, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ReplyKeyboardMarkup
+keyboard
+  Field required [type=missing, input_value={'resize_keyboard': True}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.9/v/missing
+2024-11-28 01:42:36,703 - aiogram.dispatcher - INFO - Polling stopped
+2024-11-28 01:42:36,966 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-12-08 01:35:37,052 - db.db_utils - INFO - Майстра успішно додано
+2024-12-08 01:35:37,102 - aiogram.dispatcher - INFO - Start polling
+2024-12-08 01:35:37,254 - aiogram.dispatcher - INFO - Run polling for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
+2024-12-08 01:35:37,312 - aiogram.event - INFO - Update id=675841009 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,313 - aiogram.event - INFO - Update id=675841010 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,313 - aiogram.event - INFO - Update id=675841011 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841012 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841013 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841014 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841015 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841016 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,314 - aiogram.event - INFO - Update id=675841017 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841018 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841019 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841020 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841021 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841022 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841023 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841024 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,315 - aiogram.event - INFO - Update id=675841025 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,316 - aiogram.event - INFO - Update id=675841026 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,316 - aiogram.event - INFO - Update id=675841027 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:35:37,316 - aiogram.event - INFO - Update id=675841028 is not handled. Duration 0 ms by bot id=7635257187
+2024-12-08 01:36:17,165 - aiogram.dispatcher - INFO - Polling stopped
+2024-12-08 01:36:17,420 - aiogram.dispatcher - INFO - Polling stopped for bot @Irina_atelier_bot id=7635257187 - 'Irina_atelier_bot'
